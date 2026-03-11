@@ -88,3 +88,7 @@ target/
 
 # Virtual environment
 .venv/
+<<<<<<< HEAD
+=======
+node_modules/
+>>>>>>> 257d25984533e4eefa8eb2fbc4a9212387a89966
