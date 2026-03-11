@@ -1,0 +1,35 @@
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 99px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  z-index: 9999;
+  animation: slideUp 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0,0,0,.4);
+  white-space: nowrap;
+}
+.success { background: #166534; border: 1px solid #34d399; color: #d1fae5; }
+.error   { background: #7f1d1d; border: 1px solid #f87171; color: #fee2e2; }
+
+.close {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  padding: 0;
+  line-height: 1;
+}
+.close:hover { opacity: 1; }
+
+@keyframes slideUp {
+  from { transform: translateX(-50%) translateY(20px); opacity: 0; }
+  to   { transform: translateX(-50%) translateY(0);    opacity: 1; }
+}

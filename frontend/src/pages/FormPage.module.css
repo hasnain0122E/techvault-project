@@ -1,0 +1,13 @@
+.page { padding: 2rem; max-width: 860px; margin: 0 auto; }
+
+.header { display: flex; align-items: flex-start; gap: 1.25rem; margin-bottom: 2rem; flex-wrap: wrap; }
+
+.backBtn {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--muted); padding: 0.5rem 1rem; border-radius: 8px;
+  font-size: 0.85rem; transition: color 0.15s; white-space: nowrap; margin-top: 0.3rem;
+}
+.backBtn:hover { color: var(--text); }
+
+.title { font-family: var(--font-head); font-size: 1.6rem; font-weight: 800; }
+.sub   { font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem; }
